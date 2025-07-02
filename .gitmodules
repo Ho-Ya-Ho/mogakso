@@ -1,0 +1,6 @@
+[submodule "ethernaut/1_Fallback/lib/forge-std"]
+	path = ethernaut/1_Fallback/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/Fallout/lib/forge-std"]
+	path = ethernaut/Fallout/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
