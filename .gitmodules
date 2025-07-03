@@ -16,3 +16,6 @@
 [submodule "ethernaut/7_Force/lib/forge-std"]
 	path = ethernaut/7_Force/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/8_Vault/lib/forge-std"]
+	path = ethernaut/8_Vault/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
