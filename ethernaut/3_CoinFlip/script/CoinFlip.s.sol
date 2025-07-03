@@ -2,9 +2,9 @@
 pragma solidity ^0.8.13;
 
 import {Script, console} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import {CoinFlip} from "../src/CoinFlip.sol";
 
-contract CounterScript is Script {
+contract CoinFlipScript is Script {
     Counter public counter;
 
     function setUp() public {}

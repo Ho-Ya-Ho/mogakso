@@ -5,8 +5,7 @@ import "./CoinFlip.sol";
 
 contract Attack {
     address public coinFlipAddress;
-    uint256 FACTOR =
-        57896044618658097711785492504343953926634992332820282019728792003956564819968;
+    uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
     constructor(address _coinFlipAddress) {
         coinFlipAddress = _coinFlipAddress;

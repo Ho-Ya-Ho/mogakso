@@ -1,8 +1,7 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract CoinFlip {
-    uint256 public consecutiveWins; // 변수를 public으로 선언할 경우 getter가 자동으로 생성된다.
+    uint256 public consecutiveWins;
     uint256 lastHash;
     uint256 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
