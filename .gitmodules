@@ -25,3 +25,6 @@
 [submodule "ethernaut/10_ReEntrancy/lib/forge-std"]
 	path = ethernaut/10_ReEntrancy/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/11_Elevator/lib/forge-std"]
+	path = ethernaut/11_Elevator/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
