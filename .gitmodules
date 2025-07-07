@@ -40,3 +40,6 @@
 [submodule "ethernaut/15_NaughtCoin/lib/forge-std"]
 	path = ethernaut/15_NaughtCoin/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/15_NaughtCoin/lib/openzeppelin-contracts"]
+	path = ethernaut/15_NaughtCoin/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
