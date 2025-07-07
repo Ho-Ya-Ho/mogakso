@@ -6,10 +6,10 @@ import "../src/GatekeeperOne.sol";
 import "../src/Attack.sol";
 
 contract GateKeeperOneTest is Test {
-    // Counter public counter;
+    // Preservation.sol public counter;
 
     // function setUp() public {
-    //     counter = new Counter();
+    //     counter = new Preservation.sol();
     //     counter.setNumber(0);
     // }
 
