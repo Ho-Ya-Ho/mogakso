@@ -49,3 +49,6 @@
 [submodule "ethernaut/16_Preservation/lib/forge-std"]
 	path = ethernaut/16_Preservation/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/17_Recovery/lib/forge-std"]
+	path = ethernaut/17_Recovery/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
