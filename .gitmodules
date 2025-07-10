@@ -55,3 +55,6 @@
 [submodule "ethernaut/18_MagicNum/lib/forge-std"]
 	path = ethernaut/18_MagicNum/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/19_AlienCodex/lib/forge-std"]
+	path = ethernaut/19_AlienCodex/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
