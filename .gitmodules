@@ -73,3 +73,6 @@
 [submodule "23_DexTwo/lib/forge-std"]
 	path = 23_DexTwo/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "ethernaut/24_PuzzleWallet/lib/forge-std"]
+	path = ethernaut/24_PuzzleWallet/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

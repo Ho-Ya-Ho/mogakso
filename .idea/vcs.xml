@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/10_ReEntrancy/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/11_Elevator/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/12_Privacy/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/13_GatekeeperOne/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/14_GatekeeperTwo/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/15_NaughtCoin/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/15_NaughtCoin/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/15_NaughtCoin/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/15_NaughtCoin/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/15_NaughtCoin/lib/openzeppelin-contracts/lib/halmos-cheatcodes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/16_Preservation/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/17_Recovery/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/18_MagicNum/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/19_AlienCodex/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/1_Fallback/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/20_Denial/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/21_Shop/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/22_Dex/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/22_Dex/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/22_Dex/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/22_Dex/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/22_Dex/lib/openzeppelin-contracts/lib/halmos-cheatcodes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/2_Fallout/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/5_token/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/6_Delegation/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/7_Force/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/8_Vault/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/9_King/lib/forge-std" vcs="Git" />
+  </component>
+</project>
