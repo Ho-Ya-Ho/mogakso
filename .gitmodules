@@ -79,6 +79,3 @@
 [submodule "web3/ethernaut/25_Motorbike/lib/forge-std"]
 	path = web3/ethernaut/25_Motorbike/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
-[submodule "web3/mini-project/lib/forge-std"]
-	path = web3/mini-project/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
