@@ -82,3 +82,6 @@
 [submodule "web3/ethernaut/24_PuzzleWallet/lib/forge-std"]
 	path = web3/ethernaut/24_PuzzleWallet/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "web3/ethernaut/25_Motorbike/lib/openzeppelin-contracts"]
+	path = web3/ethernaut/25_Motorbike/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
