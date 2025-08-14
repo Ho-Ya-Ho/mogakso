@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/24_PuzzleWallet/lib/forge-std" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ethernaut/25_Motorbike/lib/forge-std" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/mini-project/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/25_Motorbike/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethray" vcs="Git" />
   </component>
 </project>
