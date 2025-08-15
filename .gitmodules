@@ -88,3 +88,6 @@
 [submodule "web3/ethernaut/26_DoubleEntryPoint/lib/forge-std"]
 	path = web3/ethernaut/26_DoubleEntryPoint/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "web3/ethernaut/26_DoubleEntryPoint/lib/openzeppelin-contracts"]
+	path = web3/ethernaut/26_DoubleEntryPoint/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
