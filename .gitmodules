@@ -94,3 +94,6 @@
 [submodule "web3/ethernaut/27_GoodSamaritan/lib/forge-std"]
 	path = web3/ethernaut/27_GoodSamaritan/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "web3/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts"]
+	path = web3/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts

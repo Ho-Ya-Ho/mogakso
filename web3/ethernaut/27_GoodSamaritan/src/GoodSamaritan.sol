@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.0 <0.9.0;
 
-import "../lib/openzeppelin-contracts/contracts 2/utils/Address.sol";
+import "../lib/openzeppelin-contracts/contracts/utils/Address.sol";
 
 contract GoodSamaritan {
     Wallet public wallet;
