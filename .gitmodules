@@ -103,3 +103,6 @@
 [submodule "web3/ethernaut/29_Switch/lib/forge-std"]
 	path = web3/ethernaut/29_Switch/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "web3/ethernaut/30_HigherOrder/lib/forge-std"]
+	path = web3/ethernaut/30_HigherOrder/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std

@@ -26,5 +26,5 @@ contract SwitchScript is Script {
         require(ok);
 
         vm.stopBroadcast();
-    }ㅎ
+    }
 }
