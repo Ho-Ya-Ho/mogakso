@@ -2,9 +2,9 @@
 pragma solidity 0.6.12;
 
 contract HigherOrder {
-    address public commander;
+    address public commander; // 현재 지배자(=승계자가 될 주소)
 
-    uint256 public treasury;
+    uint256 public treasury; // 금고에 있는 값
 
     function registerTreasury(uint8) public {
         assembly {
