@@ -115,3 +115,6 @@
 [submodule "web3/ethernaut/32_Impersonator/lib/openzeppelin-contracts"]
 	path = web3/ethernaut/32_Impersonator/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "web3/ethernaut/33_MagicAnimalCarousel/lib/forge-std"]
+	path = web3/ethernaut/33_MagicAnimalCarousel/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
