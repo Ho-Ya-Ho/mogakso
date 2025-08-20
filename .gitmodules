@@ -109,3 +109,6 @@
 [submodule "web3/ethernaut/31_Stake/lib/forge-std"]
 	path = web3/ethernaut/31_Stake/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "web3/ethernaut/32_Impersonator/lib/forge-std"]
+	path = web3/ethernaut/32_Impersonator/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
