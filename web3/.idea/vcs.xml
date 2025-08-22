@@ -5,5 +5,21 @@
     <mapping directory="$PROJECT_DIR$/ethernaut/24_PuzzleWallet/lib/forge-std" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ethernaut/25_Motorbike/lib/forge-std" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ethernaut/25_Motorbike/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/26_DoubleEntryPoint/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/27_GoodSamaritan/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/27_GoodSamaritan/lib/openzeppelin-contracts/lib/forge-std/lib/ds-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/28_GatekeeperThree/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/29_Switch/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/30_HigherOrder/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/31_Stake/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/32_Impersonator/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/32_Impersonator/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/32_Impersonator/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/32_Impersonator/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/32_Impersonator/lib/openzeppelin-contracts/lib/forge-std/lib/ds-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethernaut/33_MagicAnimalCarousel/lib/forge-std" vcs="Git" />
   </component>
 </project>

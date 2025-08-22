@@ -13,5 +13,13 @@
     <mapping directory="$PROJECT_DIR$/27_GoodSamaritan/lib/openzeppelin-contracts/lib/forge-std/lib/ds-test" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/28_GatekeeperThree/lib/forge-std" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/29_Switch/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/30_HigherOrder/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/31_Stake/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/32_Impersonator/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/32_Impersonator/lib/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/32_Impersonator/lib/openzeppelin-contracts/lib/erc4626-tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/32_Impersonator/lib/openzeppelin-contracts/lib/forge-std" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/32_Impersonator/lib/openzeppelin-contracts/lib/forge-std/lib/ds-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/33_MagicAnimalCarousel/lib/forge-std" vcs="Git" />
   </component>
 </project>
