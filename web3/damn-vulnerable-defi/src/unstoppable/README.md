@@ -16,4 +16,4 @@ Starting with 10 DVT tokens in balance, show that it's possible to halt the vaul
 
 당신은 처음에 10 DVT 토큰만 가지고 시작합니다.
 이 상황에서, 해당 금고(vault)를 멈추게(halt) 하는 방법이 가능함을 보여야 합니다.
-즉, 금고가 더 이상 플래시론을 제공하지 못하도록 만드는 것이 목표입니다.
+즉, 금고가 더 이상 플래시론을 제공하지 못하도록 만드는 것이 목표입니다..
