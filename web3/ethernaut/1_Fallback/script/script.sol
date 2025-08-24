@@ -19,10 +19,6 @@ contract FallbackScript is Script {
         back.contribute{value: 0.0001 ether}();
         back.withdraw();
 
-        // (bool success, ) = address(back).call{value: 0.0001 ether}("");
-        // require(success, "Direct call failed");
-
-
         vm.stopBroadcast();
     }
 }
